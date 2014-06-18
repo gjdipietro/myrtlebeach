@@ -23,9 +23,21 @@
 	var description = "Welcome to our vacation home at the beach!";
 	var photos = [ 
 		{
-			caption: 'Come on in!',
+			caption: 'Come on in 2144 Lark, Oceanside Village',
 			image: [
 		      "build/img/beach1.jpg",
+		    ],
+		},
+		{
+			caption: 'The living room with updated furniture.',
+			image: [
+		      "build/img/beach9.jpg",
+		    ],
+		},
+		{
+			caption: 'A view of the living room from the dining room table.',
+			image: [
+		      "build/img/beach3.jpg",
 		    ],
 		},
 		{
@@ -34,16 +46,33 @@
 		      "build/img/beach2.jpg",
 		    ],
 		},
-
+		
 		{
-			caption: 'A view of the living room from the dining room table.',
+			caption: 'The sunroom.  A great place to play games or stay connected with secure wireless internet!',
 			image: [
-		      "build/img/beach3.jpg",
+		      "build/img/beach7.jpg",
 		    ],
 		},
-
 		{
-			caption: 'The master bedroom.',
+			caption: 'The sunroom looking out into the rest of the home.',
+			image: [
+		      "build/img/beach8.jpg",
+		   ],
+		},
+		{
+			caption: 'We love to cook so you will find our kitchen fully equipped.',
+			image: [
+		      "build/img/beach18.jpg",
+		    ],
+		},
+		{
+			caption: 'Breakfast nook and entry way with view of the fourth bedroom.',
+			image: [
+		      "build/img/beach13.jpg",
+		    ],
+		},
+		{
+			caption: 'Master bedroom with queen size bed and television',
 			image: [
 		      "build/img/beach4.jpg",
 		    ],
@@ -55,94 +84,67 @@
 		      "build/img/beach5.jpg",
 		    ],
 		},
-
 		{
-			caption: 'Bathroom, towels are provied.',
+			caption: 'Main bath - Bed linens and towels included in rental',
 			image: [
 		      "build/img/beach6.jpg",
 		    ],
 		},
-
 		{
-			caption: 'The sunroom.  A great place to read the morning paper.',
-			image: [
-		      "build/img/beach7.jpg",
-		    ],
-		},
-
-		{
-			caption: 'The sunroom looking out into the rest of the home.',
-			image: [
-		      "build/img/beach8.jpg",
-		   ],
-		},
-		{
-			caption: 'The cozy living room with updated furniture.',
-			image: [
-		      "build/img/beach9.jpg",
-		    ],
-		},
-
-		{
-			caption: 'View of the house from across the street.',
-			image: [
-		      "build/img/beach10.jpg",
-		    ],
-		},
-
-		
-
-		{
-			caption: 'Just a few feet from the beach access.',
-			image: [
-		      "build/img/beach11.jpg",
-		    ],
-		},
-
-		{
-			caption: 'Viewing the house coming back from the beach.  The outdoor shower is great to rinse off.',
-			image: [
-		      "build/img/beach12.jpg",
-		    ],
-		},
-
-		
-
-		{
-			caption: 'The breakfast nook and entryway.',
-			image: [
-		      "build/img/beach13.jpg",
-		    ],
-		},
-
-		{
-			caption: 'A bedroom.',
+			caption: 'Second bedroom with queen size bed.',
 			image: [
 		      "build/img/beach14.jpg",
 		    ],
 		},	
 		{
-			caption: 'Big closet in the bedroom.',
+			caption: '',
 			image: [
 		      "build/img/beach15.jpg",
 		    ],
 		},
+
 		{
-			caption: 'Another bedroom with attached bathroom.',
+			caption: 'Third bedroom with a full bed is perfect for the kids!',
+			image: [
+		      "build/img/beach19.jpg",
+		    ],
+		},
+		{
+			caption: '',
+			image: [
+		      "build/img/beach20.jpg",
+		    ],
+		},
+
+		{
+			caption: 'Fourth bedroom with a full size bed and private half bath',
 			image: [
 		      "build/img/beach16.jpg",
 		    ],
 		},
 		{
-			caption: 'Bedroom looking out into the kitchen area.',
+			caption: '',
 			image: [
 		      "build/img/beach17.jpg",
 		    ],
 		},
 		{
-			caption: 'Kitchen.',
+			caption: 'Birds eye view of our homes located on the first row of Ocean Blvd.  You can see the Oceanfront houses in the backgroud.',
 			image: [
-		      "build/img/beach18.jpg",
+		      "build/img/beach10.jpg",
+		    ],
+		},
+		{
+			caption: 'Just a few feet from Beach access in Surfside Beach one mile north of the Garden City Pier',
+			image: [
+		      "build/img/beach11.jpg",
+		    ],
+		},
+		
+		{
+			caption: 'Viewing the house coming back from the beach.  The outdoor shower is great to rinse off.',
+			image: [
+		      "build/img/beach12.jpg",
 		    ],
 		},
 	];
