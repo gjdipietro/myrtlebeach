@@ -1,0 +1,76 @@
+
+
+/*
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); // IE9 Compat Modes 
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), // IE6-IE8 
+       url('webfont.woff') format('woff'), // Modern Browsers 
+       url('webfont.ttf')  format('truetype'), // Safari, Android, iOS 
+       url('webfont.svg#svgFontName') format('svg'); // Legacy iOS 
+}*/
+
+
+
+
+
+html {
+  	font-family: $san_serif;
+  	font-size: 62.5%;	
+	@media all and (min-width: 25em) { /*400px*/
+		
+	}
+	@media all and (min-width: 50em) { /*800px*/
+		
+	}
+	@media all and (min-width: 75em) { /*1200px*/
+		
+	}
+}
+body {
+	font-size: $unit;
+  font-size: $unitrem;
+  line-height:1.8125;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:  $serif;
+  margin: 0 0 0 0;
+	padding: 0;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 1.1;
+}
+
+h1, .h1 {
+  @include font-size(3);
+  margin-bottom: $unit;
+  margin-bottom: $unitrem;
+  @media all and (min-width: 50em) { 
+  	
+  }
+}
+h2, .h2 {
+  @include font-size(1.85);
+  margin-bottom: $unit;
+  margin-bottom: $unitrem;
+  
+}
+h3, .h3 { // In blog post sub sections
+  @include font-size(1.75);
+  margin: 0;
+  
+}
+h4, .h4 {
+  @include font-size(1.5);
+  margin-bottom: 0;
+  
+}
+h5, .h5, h6, .h6 {
+  @include font-size(1  * 1.8) ;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  
+}
+
+

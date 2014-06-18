@@ -1,0 +1,42 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> -- <role> -- <twitter>
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+
+
+
+
+#  GRUNT
+	to get started go to the project file and type 
+	create the packages.json file
+	npm install this create the nodes module.
+	to install things npm install grunt-XXXXX- --save-dev
+	then configure it in Gruntfile.js
+	run /projectfile/ $: grunt watch
+
+	
+
+
+# to start local dev
+go to project folder
+
+spin up jekyll for development 
+
+jekyll serve --watch
+http://localhost:4000/
+
+grunt watch 
+(probably a grunt to eliminate jekyll serve)
+
+
