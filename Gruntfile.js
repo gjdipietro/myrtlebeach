@@ -41,7 +41,7 @@ module.exports = function(grunt) {
 
     uglify: {
       build: {
-        src: ['js/main.js', 'js/plugins.js'], //input
+        src: ['js/vendor/*.js', 'js/main.js', 'js/plugins.js'], //input
         dest: 'build/js/main.min.js' //output
       }
     },
@@ -85,10 +85,6 @@ module.exports = function(grunt) {
       },
     },
     
-
-    
-
-
     production: {
       tasks:['compass:prod']
     },

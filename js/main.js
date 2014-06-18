@@ -19,7 +19,7 @@
 	});
 
 
-	var title = "Myrtle Beach Vacation Home";
+	var title = "Myrtle Beach Vacation Rental";
 	var description = "Welcome to our vacation home at the beach!";
 	var photos = [ 
 		{

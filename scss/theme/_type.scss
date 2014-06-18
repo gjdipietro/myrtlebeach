@@ -43,34 +43,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, .h1 {
-  @include font-size(3);
+  @include font-size(2);
   margin-bottom: $unit;
   margin-bottom: $unitrem;
   @media all and (min-width: 50em) { 
-  	
+  	@include font-size(3);
   }
 }
 h2, .h2 {
-  @include font-size(1.85);
+  @include font-size(1.5);
   margin-bottom: $unit;
   margin-bottom: $unitrem;
-  
+  @media all and (min-width: 50em) { 
+    @include font-size(1.85);
+  }
 }
 h3, .h3 { // In blog post sub sections
-  @include font-size(1.75);
+  @include font-size(1.15);
   margin: 0;
-  
+  @media all and (min-width: 50em) { 
+    @include font-size(1.65);
+  }
 }
 h4, .h4 {
-  @include font-size(1.5);
+  @include font-size(1);
   margin-bottom: 0;
-  
+  @media all and (min-width: 50em) { 
+    @include font-size(1.5);
+  }
 }
 h5, .h5, h6, .h6 {
-  @include font-size(1  * 1.8) ;
+  @include font-size(1) ;
   margin-bottom: 0;
   text-transform: uppercase;
-  
 }
 
 
