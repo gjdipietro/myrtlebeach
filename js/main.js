@@ -104,7 +104,7 @@
 		},
 
 		{
-			caption: 'Third bedroom with a full bed is perfect for the kids!',
+			caption: 'Third bedroom with a full size bed is perfect for the kids!',
 			image: [
 		      "build/img/beach19.jpg",
 		    ],
@@ -129,7 +129,7 @@
 		    ],
 		},
 		{
-			caption: 'Birds eye view of our homes located on the first row of Ocean Blvd.  You can see the Oceanfront houses in the backgroud.',
+			caption: 'Birds eye view of our homes on Ocean Blvd (first row).  Oceanfront houses in the backgroud.',
 			image: [
 		      "build/img/beach10.jpg",
 		    ],
