@@ -31,10 +31,11 @@ body {
 	font-size: $unit;
   font-size: $unitrem;
   line-height:1.8125;
+  font-family:  $serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family:  $serif;
+  font-family:  $san_serif;
   margin: 0 0 0 0;
 	padding: 0;
 	font-weight: 500;
@@ -43,26 +44,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, .h1 {
-  @include font-size(2);
+  @include font-size(1.75);
   margin-bottom: $unit;
   margin-bottom: $unitrem;
+  font-weight:700;
   @media all and (min-width: 50em) { 
-  	@include font-size(3);
+  	@include font-size(2.5);
   }
 }
 h2, .h2 {
-  @include font-size(1.5);
+  @include font-size(1.25);
   margin-bottom: $unit;
   margin-bottom: $unitrem;
   @media all and (min-width: 50em) { 
-    @include font-size(1.85);
+    @include font-size(1.45);
   }
 }
 h3, .h3 { // In blog post sub sections
   @include font-size(1.15);
   margin: 0;
   @media all and (min-width: 50em) { 
-    @include font-size(1.65);
+    @include font-size(1.25);
   }
 }
 h4, .h4 {
