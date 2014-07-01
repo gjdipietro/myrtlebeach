@@ -9,14 +9,7 @@
 		this.title = title;
 	});
 
-	app.controller('ReviewController', function(){
-		this.review = {}; // set review to an empty object...will be filled with our data.
-		this.addReview = function(product) {
-			product.reviews.push(this.review); //push the controller review on the reviews array.
-			this.review =  {}; // clear the form hide the live preview
-			alert('Hey you did it.');
-		};
-	});
+
 
 
 	var title = "Myrtle Beach Vacation Rental";
