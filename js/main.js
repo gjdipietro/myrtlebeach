@@ -22,13 +22,19 @@
 		    ],
 		},
 		{
+			caption: 'Secure keyless entry.',
+			image: [
+		      "build/img/beach21.jpg",
+		    ],
+		},
+		{
 			caption: 'The living room with updated furniture.',
 			image: [
 		      "build/img/beach9.jpg",
 		    ],
 		},
 		{
-			caption: 'A view of the living room from the dining room table.',
+			caption: 'A view of the floorplan.',
 			image: [
 		      "build/img/beach3.jpg",
 		    ],
@@ -37,13 +43,6 @@
 			caption: 'Dining Room with island, great for entertaining.',
 			image: [
 		      "build/img/beach2.jpg",
-		    ],
-		},
-		
-		{
-			caption: 'The sunroom.  A great place to play games or stay connected with secure wireless internet!',
-			image: [
-		      "build/img/beach7.jpg",
 		    ],
 		},
 		{
@@ -90,22 +89,9 @@
 		    ],
 		},	
 		{
-			caption: '',
-			image: [
-		      "build/img/beach15.jpg",
-		    ],
-		},
-
-		{
 			caption: 'Third bedroom with a full size bed is perfect for the kids!',
 			image: [
 		      "build/img/beach19.jpg",
-		    ],
-		},
-		{
-			caption: '',
-			image: [
-		      "build/img/beach20.jpg",
 		    ],
 		},
 
