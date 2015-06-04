@@ -64,6 +64,12 @@
 		    ],
 		},
 		{
+			caption: 'Plenty of spots to play a game or two.',
+			image: [
+		      "build/img/beach23.jpg",
+		    ],
+		},
+		{
 			caption: 'Master bedroom with queen size bed and television',
 			image: [
 		      "build/img/beach4.jpg",
@@ -76,6 +82,14 @@
 		      "build/img/beach5.jpg",
 		    ],
 		},
+
+		{
+			caption: 'Bathroom attached to master',
+			image: [
+		      "build/img/beach24.jpg",
+		    ],
+		},
+
 		{
 			caption: 'Main bath - Bed linens and towels included in rental',
 			image: [
