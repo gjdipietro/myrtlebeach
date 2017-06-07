@@ -15,6 +15,11 @@
         <link rel="stylesheet" href="build/css/styles.css">
       	<script src="build/js/main.min.js"></script>
 
+      	<meta property="og:title" content="2144 Lark, Oceanside Village"/>
+      	<meta property="og:description" content="Welcome to our vacation home at the beach! For rates and availability contact Cathy DiPietro at jerdot@hotmail Contact"/>
+      	<meta property="og:image" content="http://gjdipietro.github.io/myrtlebeach/build/img/beach1.jpg"/>
+      	<meta property="og:url" content="http://gjdipietro.github.io/myrtlebeach/"/>
+      	<meta property="og:type" content="website"/>
     </head>
 
 
@@ -25,12 +30,8 @@
 
 <article class="content-body content-body-theme" ng-controller="LarkController as lark"> 
 
-  <h1>
-    {{ lark.title }}
-  </h1>
-	<h3 class="intro">
-    {{ lark.description }}
-  </h3>
+  	<h1>Myrtle Beach Vacation Rental</h1>
+	<h3 class="intro">Welcome to our vacation home at the beach!</h3>
 
     <figure ng-repeat="photo in lark.photos">
         <img ng-src="{{photo.image[0]}}" alt="{{ photo.caption }}" />   
